@@ -19,6 +19,28 @@ nav a {
   text-decoration: none;
   font-weight: bold;
 }
+.profile-pic {
+  width: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 1rem auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.resume-button {
+  background-color: #0077b6;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.resume-button:hover {
+  background-color: #005f8e;
+}
 
 section {
   padding: 2rem;
